@@ -1,9 +1,11 @@
 package com.sda.lessons;
 
 import com.sda.lessons.audi.AudiCarFactory;
+import com.sda.lessons.audi.AudiV6Engine;
 import com.sda.lessons.bmw.BmwCarFactory;
 import com.sda.lessons.core.Car;
 import com.sda.lessons.core.CarFactory;
+import com.sda.lessons.core.Engine;
 
 
 public class App {
@@ -21,5 +23,7 @@ public class App {
         } else {
             System.out.println("Mają taką samą predkość");
         }
+        Engine engine = new AudiV6Engine();
+
     }
 }

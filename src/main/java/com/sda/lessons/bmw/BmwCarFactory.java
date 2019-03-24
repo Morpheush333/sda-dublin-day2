@@ -13,7 +13,7 @@ public class BmwCarFactory extends CarFactory {
                     new Wheel(14, TyreTypes.SUMMER),
                     new Wheel(14, TyreTypes.SUMMER)
             };
-            Car x5 = new Car(wheels, Make.BMW, 300, "Red");
+            Car x5 = new Car(wheels, Make.BMW, 300, "Red", null);
             return x5;
         } else {
             System.out.println("Nie ma takiego modelu");
