@@ -12,7 +12,7 @@ public class AudiCarFactory extends CarFactory {
                     new Wheel(18, TyreTypes.WINTER),
                     new Wheel(18, TyreTypes.WINTER)
             };
-            Car rs4 = new Car(wheels, Make.AUDI, 15, "Blue");
+            Car rs4 = new Car(wheels, Make.AUDI, 150, "Blue", new AudiV6Engine());
             return rs4;
         } else {
             System.out.println("Nie ma takiego modelu i już");
